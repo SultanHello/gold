@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 520px;
+    padding-left: 100px;
+    
+
+}
+.fon{
+    background: url(fon.webp)
+    center no-repeat;
+    
+
+}
+header h1 {
+    size: 50px;
+    max-width: 500px;
+
+
+    padding-top: 120px;
+    margin-bottom: 30px;
+    
+
+
+}
+header button {
+
+}
+header p {
+    max-width: 500px;
+    font-size: 25px;
+    margin-bottom: 20px
+
+
+
+    
+
+
+}
+.icon {
+    display: flex;
+    margin-bottom: -10px;
+}
+.conteiner div {
+ 
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+}
+.ul li{
+    display: flex ;
+    float: left;
+    padding-left: 15px;
+    margin-top: 10px;
+   
+}
+.ali {
+    text-decoration: none;
+    color: #c1bfc2;;
+    
+    
+}
+.demo {
+    background: #ffaf46;
+    padding: 5px;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: -4px;
+    
+}
+
+    
+
+.hair a {
+    text-decoration: none;
+    color: #c1bfc2;
+}
+
+body {
+    background: white;
+}
+.altyn {
+    background: #d8d8db;
+    padding: 3px;
+    border-top-left-radius: 6px;
+    color: #ffaf46;
+    
+}
+.gold {
+    background: #ffaf46;
+    padding: 3px;
+    border-bottom-right-radius: 6px;
+    color: #dadada;
+}
+.wondering {
+    font-size: 17px;
+}
+header input {
+    border: none;
+    background: #d1d1d1;
+    padding: 10px;
+    border-top-left-radius: 10px;
+
+}
+header button {
+    border: none;
+    background: #ffaf46;
+    padding: 10px;
+    margin-left: -5px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.stats{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.I{
+    background: #d1d1d1;
+    width: 2px;
+    height: 50px;
+}
+.stat{
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffaf46;
+}
+.imageq{
+    display: none;
+}
+button{
+    border: none;
+}
+.button1{
+    margin-right: 100px;
+    
+}
+.button2{
+    margin-left: 90px;
+}
+.b{
+    position: relative;
+    bottom: 300px;
+    opacity: 0;
+}
+
+.slider{
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+.box1{
+    width: 200px;
+    height: 400px;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    padding: 20px;
+
+}
+.imgMarcet{
+    width: 200px;
+    height: 200px;
+
+}
+.str1{
+    max-width: 1050px;
+    margin: auto;
+}
+.str2{
+    max-width: 1050px;
+    margin: auto;
+
+}
+.text{
+    color: #979797;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.buy p{
+    background-color: #ffaf46;
+    width: 55px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    
+}
+.count{
+    color:greenyellow;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.today{
+    max-width: 700px;
+    color:#979797;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    padding: 100px 0 30px 0 ;
+    
+}
+.todayI{
+    background: #ffaf46;
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    margin-top: 30px;
+}
+.boxStr1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.boxStr2{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:980px){
+    .imgMarcet{
+        width: 100px;
+        height: 100px;
+    }
+    .box1{
+        width: 100px;
+        height: 200px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .buy{
+        font-size: 14px;
+        padding: 2px;
+    }
+
+}
+@media(max-width:640px){
+    header{
+        text-align: center;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    header p{
+        font-size: 20px;
+        font-weight: 900;
+
+    }
+}
+@media(max-width:580px){
+    .boxStr1{
+        display:block;
+        margin: auto;
+    }
+    .boxStr2{
+        display: block;
+    }
+    .imgMarcet{
+        width: 400px;
+        height: 300px;
+    }
+    .box1{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .buy{
+        font-size: 20px;
+        padding: 2px;
+    }
+    header{
+        padding-left: 40px;
+    }
+
+
+    
+}
+@media(max-width:515px){
+    .imgMarcet{
+        width: 300px;
+        height: 200px;
+    }
+    .box1{
+        width: 300px;
+        height: 320px;
+        margin: auto;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .buy{
+        font-size: 20px;
+        padding: 2px;
+    }
+    .today p{
+        font-size: 14px;
+    }
+
+}
